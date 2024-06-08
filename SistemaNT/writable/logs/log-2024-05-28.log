@@ -1,0 +1,168 @@
+CRITICAL - 2024-05-28 16:25:18 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:25:23 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:27:28 --> ErrorException: Undefined variable $usuarios
+[Method: POST, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:27:32 --> ErrorException: Undefined variable $usuarios
+[Method: POST, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:28:11 --> ErrorException: Undefined variable $usuarios
+[Method: POST, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:28:13 --> ErrorException: Undefined variable $usuarios
+[Method: POST, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:29:15 --> ErrorException: Undefined variable $usuarios
+[Method: POST, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:33:15 --> ErrorException: Undefined variable $u
+[Method: GET, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $u', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:33:46 --> ErrorException: Undefined variable $usuarios
+[Method: POST, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:36:12 --> ErrorException: Undefined variable $usuarios
+[Method: POST, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:36:13 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-28 16:36:20 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: buscarU]
+in APPPATH\Views\usuarios\buscarU.php on line 9.
+ 1 APPPATH\Views\usuarios\buscarU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SistemaNT\\app\\Views\\usuarios\\buscarU.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usuarios/buscarU', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('usuarios/buscarU', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buscarU()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,47 @@
+ERROR - 2024-06-07 15:35:33 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bdd_sistemant' in C:\xampp\htdocs\SistemaNT\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\SistemaNT\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'bdd_sistemant', 3306, '', 0)
+#1 C:\xampp\htdocs\SistemaNT\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SistemaNT\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SistemaNT\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`usu...', Array, false)
+#4 C:\xampp\htdocs\SistemaNT\app\Models\miModelo.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SistemaNT\app\Controllers\Home.php(20): App\Models\miModelo->selectUsuarios()
+#6 C:\xampp\htdocs\SistemaNT\system\CodeIgniter.php(933): App\Controllers\Home->usuarios()
+#7 C:\xampp\htdocs\SistemaNT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\SistemaNT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SistemaNT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SistemaNT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\SistemaNT\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bdd_sistemant' in C:\xampp\htdocs\SistemaNT\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\SistemaNT\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SistemaNT\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SistemaNT\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`usu...', Array, false)
+#3 C:\xampp\htdocs\SistemaNT\app\Models\miModelo.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\SistemaNT\app\Controllers\Home.php(20): App\Models\miModelo->selectUsuarios()
+#5 C:\xampp\htdocs\SistemaNT\system\CodeIgniter.php(933): App\Controllers\Home->usuarios()
+#6 C:\xampp\htdocs\SistemaNT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\SistemaNT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SistemaNT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SistemaNT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\SistemaNT\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-06-07 15:35:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bdd_sistemant'
+[Method: GET, Route: usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`usu_id`, `u`.`usu_usuario`, `u`.`usu_estado`, `d`.`dap_nombres`, `d`.`dap_correo`, `d`.`dap_cedula`
+FROM `tbl_usuario` `u`
+JOIN `tbl_datosp` `d` ON `d`.`dap_id`=`u`.`dap_id`
+WHERE `u`.`usu_estado` = :u.usu_estado:', [...], false)
+ 3 APPPATH\Models\miModelo.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(20): App\Models\miModelo->selectUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
